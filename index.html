@@ -85,6 +85,7 @@ a{color:inherit}
 .reel-row{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .reel{aspect-ratio:9/16;background:#fff;border:1px dashed var(--sky);border-radius:14px;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:.88rem;padding:20px;overflow:hidden}
 .reel iframe,.reel blockquote{width:100%;height:100%;border:0}
+.promise-line{margin:0;padding:12px 16px;border-left:3px solid var(--sky);background:#fff;border-radius:0 10px 10px 0;color:var(--ink);font-size:.95rem;line-height:1.55}
 .reels .ig{text-align:center}
 .reels .ig .sub{margin:0 auto 24px}
 .reels .ig h2{background:linear-gradient(90deg,var(--blue),#8F7BC8,#D98BB0,var(--blue));background-size:300% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:igShimmer 8s ease-in-out infinite}
@@ -159,7 +160,7 @@ textarea{min-height:140px;resize:vertical}
   <section class="wrap">
     <div class="intro">
       <h2>Most of my clients come through someone they trust.</h2>
-      <p>These are some of the families and professionals I work with, sharing what it was like to plan with me. Shared with their written permission.</p>
+      <p>Real words from clients I work with, shared with their permission.</p>
     </div>
 
     <div class="filters" id="filters" role="group" aria-label="Filter stories"></div>
@@ -169,7 +170,7 @@ textarea{min-height:140px;resize:vertical}
   <section class="reels">
     <div class="wrap ig">
       <h2 class="reveal">See more on Instagram</h2>
-      <p class="sub reveal">Moments from our client events, financial tips and life behind the scenes.</p>
+      <p class="sub reveal">Client events, money tips and behind the scenes.</p>
       <a class="ig-btn reveal" href="https://www.instagram.com/ednaaatangy/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Follow @ednaaatangy</a>
     </div>
   </section>
@@ -179,11 +180,7 @@ textarea{min-height:140px;resize:vertical}
       <div>
         <h2>Worked with me? I'd love to hear from you</h2>
         <p class="sub">A few lines about your experience helps other families decide who to trust with their planning.</p>
-        <ul class="promise">
-          <li><b>I'll check with you before anything goes up</b>You'll see the final wording first.</li>
-          <li><b>First name and initial only</b>Unless you tell me otherwise.</li>
-          <li><b>You can ask me to remove it anytime</b>Just drop me a message.</li>
-        </ul>
+        <p class="promise-line">I'll show you the final wording first, and you can ask me to remove it anytime.</p>
       </div>
 
       <form id="shareForm" novalidate>
